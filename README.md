@@ -1,8 +1,25 @@
-# React + Vite
+# Hoop Explorer 🏀🔥
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to Hoop Explorer! This is a fun and interactive React app that utilizes the BallDon'tLie NBA API to provide basketball enthusiasts with NBA statistics and information.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Player Stats:** View detailed statistics for NBA players.
+- **Responsive Design:** The app is built using React and Tailwind CSS, ensuring a seamless experience across different devices.
+- **Easy to Use:** Simply browse through the list of players to access their stats and team information.
+
+## Getting Started
+
+Follow these instructions to get a copy of the project up and running on your local machine for development and testing purposes.
+
+### Prerequisites
+
+- Node.js (and npm) installed on your machine.
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/Ionfinisher/hoop-explorer.git
+   ```
