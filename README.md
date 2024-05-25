@@ -1,6 +1,6 @@
 # Hoop Explorer 🏀🔥
 
-Welcome to Hoop Explorer! This is a fun and interactive React app that utilizes the BallDon'tLie NBA API to provide basketball enthusiasts with NBA statistics and information.
+Welcome to Hoop Explorer! This is a fun and interactive React app that utilizes the api-basketball.com API to provide basketball enthusiasts with NBA statistics and informations.
 
 ## Features
 
