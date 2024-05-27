@@ -6,7 +6,10 @@ import {
   QueryClient,
   QueryClientProvider
 } from '@tanstack/react-query';
-
+import PlayersPage from './Players/PlayersPage';
+import GamesPage from './Games/GamesPage';
+import StatsPage from './Stats/StatsPage';
+import NotFound from './NotFound/NotFound';
 
 function App() {
   const queryClient = new QueryClient();
@@ -14,20 +17,19 @@ function App() {
   return (
     <QueryClientProvider client={queryClient}>
       <NavBar />
-      <Routes>
-        <Route exact path="/" element={<HomePage />} />
-      </Routes>
-      <Routes>
-      </Routes>
-      {/* <Routes>
+      <div className="min-h-screen mt-16 mx-[80px] py-7">
+        <Routes>
+          <Route exact path="/" element={<HomePage />} />
+          <Route path="/players" element={<PlayersPage />} />
+          <Route path="/games" element={<GamesPage />} />
+          <Route path="/stats" element={<StatsPage />} />
+          {/*
             <Route path="/create" element={<Create />} />
-          </Routes>
-          <Routes>
             <Route path="/blogs/:id" element={<BlogDetails />} />
-      </Routes>*/}
-      {/* <Routes>
-        <Route path="*" element={<NotFound />} />
-      </Routes> */}
+      */}
+          <Route path="*" element={<NotFound />} />
+        </Routes>
+      </div>
     </QueryClientProvider>
   )
 }

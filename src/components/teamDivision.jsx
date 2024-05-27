@@ -1,3 +1,6 @@
-export default function TeamDivision(params) {
+
+
+
+export default function TeamDivision() {
 
 };
