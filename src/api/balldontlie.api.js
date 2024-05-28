@@ -1,7 +1,6 @@
-import { useQuery } from "@tanstack/react-query";
 import axios from "axios";
 
-const retrieveTeams = async () => {
+export const retrieveTeams = async () => {
   const response = await axios({
     method: "GET",
     url: "https://api.balldontlie.io/v1/teams",
