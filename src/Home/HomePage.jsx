@@ -13,7 +13,7 @@ export default function HomePage() {
 
     if (isPending) return <div>Fetching teams...</div>;
     if (isError) return <div>An error occurred: {error.message}</div>;
-    { console.log(data) }
+    // { console.log(data) }
 
 
 
